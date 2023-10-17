@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class MoveLeftX : MonoBehaviour
 {
-    public float speed;
     private PlayerControllerX playerControllerScript;
+
+    public float speed;
     private float leftBound = -10;
 
     // Start is called before the first frame update

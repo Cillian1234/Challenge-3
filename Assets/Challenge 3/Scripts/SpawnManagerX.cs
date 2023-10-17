@@ -5,10 +5,11 @@ using UnityEngine;
 public class SpawnManagerX : MonoBehaviour
 {
     public GameObject[] objectPrefabs;
+    private PlayerControllerX playerControllerScript;
+
     private float spawnDelay = 2;
     private float spawnInterval = 1.5f;
 
-    private PlayerControllerX playerControllerScript;
 
     // Start is called before the first frame update
     void Start()
